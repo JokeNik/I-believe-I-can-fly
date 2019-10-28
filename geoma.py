@@ -157,7 +157,6 @@ def solve(a, n, d):
         cx, cy = makevector(ans[sa - 1], ass[1])
         cos1 = cs(ax, ay, bx, by);
         cos2 = cs(ax, ay, cx, cy);
-        print("kukarek")
         if (cos1 > cos2):
             ans.append(ass[1])
             ans.append(ass[0])
